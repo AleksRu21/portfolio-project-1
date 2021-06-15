@@ -44,7 +44,12 @@ p {
 .hero h2 {
   font-weight: normal;
   line-height: 2;
-  font-size: 24px;
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+  border: solid black;
+  margin: 40px auto;
+  display: block;
+  max-width: 900px;
 }
 
 .btn-branding {
