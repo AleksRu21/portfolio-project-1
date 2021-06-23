@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aleksandra's portfolio</title>
+    <meta
+      class="project-description"
+      content="Aleksandra is a beginner front-end developer"
+    />
+    <title>About Aleksandra</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -33,6 +37,25 @@
   </head>
 </head>
 <body>
+  <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="logo"
+          />
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/work.html " title="Works">Work</a></li>
+          <li>
+            <a href="/contact.html" title="Contact Aleksandra">Contact</a>
+          </li>
+          <li class="active"><a href="/about.html" title="About Aleksandra">About</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
         <div class="row">
             <div class="col-md-6">
@@ -40,7 +63,7 @@
     <h1 class="mb-4">Hi I am Aleksandra Rudyak</h1>
     <h2 class="mt-5 mb-5">🎮 Game Master based in the Netherlands 🎮</h2>
     <p class="mb-4">For anyone who wants to start learning code, this workshop is very interesting. You will be challenged  with different exercises, and everything is well explained, homework and deadlines are good for keep focus</p>
-<a href=""class="btn btn-branding">See my projects</a>
+<a href="/work.html"class="btn btn-branding">See my projects</a>
 </div>
 </div>
 <div class="col-lg-6">
@@ -48,5 +71,57 @@
             </div>
         </div>
     </div>
+    <footer class="container">
+        <div
+          class="
+            contact-box
+            d-flex
+            justify-content-between
+            mb-5
+            d-none d-md-flex
+          "
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact"
+              title="Email to Aleksandra"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:aleksandra.rudyakmeijer@gmail.com" class="email-link">
+            aleksandra.rudyakmeijer@gmail.com</a
+          >
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <div class="social-links">
+            <a href="https://www.facebook.com/ali.rumeij.5" target="_blank"
+              ><i class="fab fa-facebook"></i></a
+            ><a href="https://www.instagram.com/aleks_rudyak/" target="_blank"
+              ><i class="fab fa-instagram"></i></a
+            ><a href="https://twitter.com/meijer_rudyak" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://github.com/AleksRu21" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded SheCodes, and it is
+          <a
+            href="https://github.com/AleksRu21/portfolio-project-1"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
   </body>
 </html>

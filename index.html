@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aleksandra's portfolio</title>
+    <meta
+      class="project-description"
+      content="Aleksandra is a beginner front-end developer"
+    />
+    <title>Web-portfolio - Aleksandra Rudyak</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,23 +35,31 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <div class="container">
-    <nav class="d-flex justify-content-between">
-      <img src="images/logo.png" class="logo d-none d-md-block" alt="logo" />
-      <ul>
-        <li class="active"><a href="/">Home</a></li>
-        <li><a href="/work.html">Work</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-        <li><a href="/about.html">About</a></li>
-      </ul>
-    </nav>
-  </div>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="logo"
+          />
+        </a>
+        <ul>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/work.html " title="Works">Work</a></li>
+          <li>
+            <a href="/contact.html" title="Contact Aleksandra">Contact</a>
+          </li>
+          <li><a href="/about.html" title="About Aleksandra">About</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero">
       <p>Hello I am</p>
       <h1>Aleksandra Rudyak</h1>
       <h2 class="mb-5">🎮 Game Master based in the Netherlands 🎮</h2>
-      <div><a href="£" class="btn btn-branding">Contact me</a></div>
+      <div><a href="/contact.html" class="btn btn-branding">Contact me</a></div>
     </div>
     <p class="text-center m-5">
       “Always choose the hardest way, on it you will not find opponents.”
@@ -58,7 +70,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="images/flowershop.jpg"
-            alt="yoghurt image"
+            alt="first website image"
             class="img-fluid"
           />
         </div>
@@ -70,7 +82,7 @@
               imaginary flower shop. Inspiration came from the idea of my
               mother-in law to start her own buisiness as a florist.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -84,7 +96,7 @@
               Worked on it while taking part in SheCodes Plus.Will not lie, I am
               proud of it.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -107,11 +119,11 @@
           <div class="project-description">
             <h2 class="mb-5">Yet to be defined.....</h2>
             <p class="mb-5 text-muted">Need to think about it a little bit</p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
-      <footer>
+      <footer class="container">
         <div
           class="
             contact-box
@@ -122,11 +134,17 @@
           "
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact"
+              title="Email to Aleksandra"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
@@ -148,6 +166,14 @@
             ></a>
           </div>
         </div>
+        <p class="text-center mt-5">
+          This project was coded SheCodes, and it is
+          <a
+            href="https://github.com/AleksRu21/portfolio-project-1"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
