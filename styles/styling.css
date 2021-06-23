@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: rgb(199, 124, 239);
   --secondary-color: rgb(244, 225, 242);
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Pacifico", cursive;
@@ -34,8 +34,8 @@ h3 {
 
 p {
   font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 19px;
+  line-height: 2;
 }
 
 .hero {
@@ -107,7 +107,7 @@ p {
   }
 
   nav a {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   footer .contact-box {
@@ -137,7 +137,7 @@ p {
 }
 
 .content p {
-  font-size: 14px;
+  font-size: 19px;
 }
 
 .content {
@@ -145,7 +145,7 @@ p {
 }
 
 .logo {
-  max-height: 40px;
+  max-height: 80px;
 }
 
 nav {
@@ -220,4 +220,24 @@ footer .contact-box {
 
 footer .contact-box p {
   margin: 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-height: 700px;
+  border-radius: 100px;
+  height: 560px;
+  left: 67px;
+  top: 1136px;
+}
+
+.weather-project-link {
+  text-decoration: none;
+  color: black;
+}
+
+.weather-project-link:hover {
+  color: var(--branding-color);
+  transition: all 200ms ease-in-out;
 }
